@@ -9,3 +9,15 @@ function myFunction() {
       a.style.display = "block";
       z.style.display = "block";
   }
+  
+function myFunc() {
+  setInterval(function(){fetch('https://kreiva.tk/lamp').then(function(response){
+  return response.json();
+ }).then(function(jsondata){
+   if(jsondata['out']==1)
+     myFunction();
+   else
+     console.log(jsondata['out']);
+ });}, 1000);
+}
+myFunc();

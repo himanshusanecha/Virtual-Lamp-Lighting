@@ -8,6 +8,12 @@ body{
 .parent{
     position: relative;
 }
+.center {
+  margin: auto;
+  width=50%;
+  padding: 10px;
+}
+
 .over-img{
     position: absolute;
     top: 27%;
