@@ -1,7 +1,7 @@
 body{
     background-image: url(Kreivalogo.png) !important;
     background-color: black !important;
-    background-position: ;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 40em;
     background-position-x: 19.4rem;
@@ -60,4 +60,35 @@ body{
 #kreiva{
     height: 250;
     margin-top: 5.5rem;
+}
+.fade-in {
+animation: fadeIn ease 20s;
+-webkit-animation: fadeIn ease 20s;
+-moz-animation: fadeIn ease 20s;
+-o-animation: fadeIn ease 20s;
+-ms-animation: fadeIn ease 20s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
 }
