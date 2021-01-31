@@ -3,9 +3,9 @@ body{
     background-color: black !important;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 40em;
-    background-position-x: 19.4rem;
-    background-position-y: 7rem;
+    background-size: 35em;
+    background-position-x: 47%;
+    background-position-y: 9rem;
     overflow: hidden;
 }
 #image{
@@ -25,25 +25,25 @@ body{
 
 .over-img{
     position: absolute;
-    top: 27%;
-    left: 78%;
+    top: 20%;
+    left: 38.5%;
     display: none;
 }
 .over-img2{
     position: absolute;
-    top: 25.5%;
-    left: 72.5%;
+    top: 19.5%;
+    left: 42%;
     display: none;
 }
 .over-img3{
     position: absolute;
-    top: 26%;
-    left: 60%;
+    top: 19.5%;
+    left: 50%;
     display: none;
 }
 .over-img4{
     position: absolute;
-    top: 28%;
+    top: 20%;
     left: 55.5%;
     display: none;
 }
@@ -51,9 +51,6 @@ body{
     margin-top: 0.6rem;
     margin-left: 33rem;
 }
-body{
-}
-
 #btn{
     margin-left: 36rem;
 }
