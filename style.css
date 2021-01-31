@@ -1,62 +1,35 @@
 body{
-    background-image: url(Kreivalogo.png) !important;
+    background-image: url(Kreivalogo.jpg) !important;
     background-color: black !important;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 35em;
-    background-position-x: 47%;
-    background-position-y: 9rem;
-    overflow: hidden;
+    background-size: 32em;
+    background-position-x: 50%;
+    background-position-y: 80%;
 }
-#image{
-    margin-top: 3rem;
-    margin-left: 16rem;
-}
-.parent{
-    position: relative;
-    margin-left: -8rem;
-    margin-top: -9.4rem;
-}
-.center {
-  margin: auto;
-  width=50%;
-  padding: 10px;
-}
-
 .over-img{
     position: absolute;
-    top: 19.5%;
-    left: 38.5%;
+    top: 20%;
+    left: 39%;
     display: none;
 }
 .over-img2{
     position: absolute;
     top: 18%;
-    left: 42%;
+    left: 43%;
     display: none;
 }
 .over-img3{
     position: absolute;
     top: 18%;
-    left: 51%;
+    left: 52%;
     display: none;
 }
 .over-img4{
     position: absolute;
     top: 19%;
-    left: 55.5%;
+    left: 56.5%;
     display: none;
-}
-#div1{
-    margin-top: 0.6rem;
-    margin-left: 33rem;
-}
-#btn{
-    margin-left: 36rem;
-}
-#kreiva{
-    height: 250;
-    margin-top: 5.5rem;
 }
 .fade-in {
 animation: fadeIn ease 8s;

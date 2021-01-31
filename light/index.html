@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="button.css">
+    <title>Let there be Light!</title>
+  </head>
+  <body>
+	  
+	<div class="section one">
+	   <div id="button" onclick="myFunction()">
+		  Light Me!
+		  <div class="ring one"></div>
+		  <div class="ring two"></div>
+		  <div class="ring three"></div>
+		  <div class="ring four"></div>
+	   </div>
+	   
+	</div>
+   </body>
+   <script>
+    function myFunction() {
+      document.getElementById("button").innerHTML = "Thankyou!";
+      fetch('https://kreiva.tk/lampp?status=1').then(function(response){
+      return response.json();
+     }).then(function(jsondata){
+       console.log(jsondata);
+     });
+
+    }
+    </script>
+</html>
